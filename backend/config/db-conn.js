@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
 // open the MySQL connection
 try {
     connection.connect(error => {
-        if (error) throw error
+        if (error) console.log(error.message);
         else console.log("Success on DB Connection.");
     });
 } catch (error) {console.log("Error connecting nodeapp to database: " + error.message)}

@@ -10,7 +10,7 @@ fi
 go=0;
 
 function check_running() {
-    nodemon /application/app.js
+    nodemon /data/application/app.js
 }
 
 check_running;

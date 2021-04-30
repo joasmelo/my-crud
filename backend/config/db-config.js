@@ -1,6 +1,6 @@
 module.exports = {
     host: "mysql",
     user: "root",
-    password: "mypass",
+    password: "joas",
     database: "my_crud",
 };
